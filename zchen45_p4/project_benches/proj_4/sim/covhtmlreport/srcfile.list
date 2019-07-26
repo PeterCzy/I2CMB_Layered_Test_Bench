@@ -1,0 +1,7 @@
+../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_coverage.svh
+../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_pkg.sv
+../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_predictor.svh
+../../../verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv
+../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv
+../testbench/top.sv
+/afs/eos.ncsu.edu/dist/mg_apps/modelsimSE10.6c/linux_x86_64/../verilog_src/std/std.sv

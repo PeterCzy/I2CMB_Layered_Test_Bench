@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>ModelSim Coverage Report</title>
+  <link rel="StyleSheet" media="screen" href="css/testplan.css"/>
+  <script type="text/javascript" src="scripts/testplan.js"></script>
+</head>
+<body id="ucdb2html_summary">
+<div class="pageHeaderDiv"> <table class="noborder"><tr><td><input type="button" value="Expand All" onclick="expandAll()" /></td><td><input type="button" value="Collapse All" onclick="collapseAll()" /></td><td><input type="button" value="Show Testplan Sections Only" onclick="showOnlyTpSections()" /></td><td><input type="button" value="Show Testplan Sections And Links" onclick="showTpSectionsAndLinks()" /></td></tr></table></div>
+<br/>
+  <h1><span class="strip">ModelSim</span> Testplan Tracking</h1>
+  
+  <table>
+<tr s="4" x1="Weight" x2="Goal"/>
+<tr id="t151Id" l="0" s="4" d="1" n="z151.htm" z="0 testplan" f="1" c="35" v="23" hc="Y" h="81.90" pc="Y" p="81.90" b="220" ht="143" q="65.00%" t="Testplan" ch="" ls="2" x1="1" x2=""/>
+<tr id="t152Id" l="1" s="3" d="1" n="z152.htm" z="1 wb bus mbyte state check" f="1" c="7" v="6" hc="Y" h="85.71" pc="Y" p="85.71" b="7" ht="6" q="85.71%" t="Testplan" ch="assert the correct mbyte state transition" ls="2" x1="1" x2=""/>
+<tr id="t153Id" l="2" s="2" d="1" n="z153.htm" z="1.1 wrtie_cmdr_04start" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 04-start command to cmdr register. It should lead the mbyte state to startpending or start" ls="2" x1="1" x2="100%"/>
+<tr id="t153L1Id" l="3" z="/top/wb_bus/assert__wrtie_cmdr_04start" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t154Id" l="2" s="2" d="1" n="z154.htm" z="1.2 write_cmdr_06setbus" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 06-setbus command to cmdr register. It should lead the mbyte state to idle or bustaken" ls="2" x1="1" x2="100%"/>
+<tr id="t154L1Id" l="3" z="/top/wb_bus/assert__write_cmdr_06setbus" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t155Id" l="2" s="2" d="1" n="z155.htm" z="1.3 write_cmdr_01write" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 01-write command to cmdr register. It should lead the mbyte state to write or idle" ls="2" x1="1" x2="100%"/>
+<tr id="t155L1Id" l="3" z="/top/wb_bus/assert__write_cmdr_01write" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t156Id" l="2" s="2" d="1" n="z156.htm" z="1.4 write_cmdr_02ack" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 02-ack command to cmdr register. It should lead the mbyte state to read or idle" ls="2" x1="1" x2="100%"/>
+<tr id="t156L1Id" l="3" z="/top/wb_bus/assert__write_cmdr_02ack" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t157Id" l="2" s="2" d="1" n="z157.htm" z="1.5 write_cmdr_03nack" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 03-nack command to cmdr register. It should lead the mbyte state to read or idle" ls="2" x1="1" x2="100%"/>
+<tr id="t157L1Id" l="3" z="/top/wb_bus/assert__write_cmdr_03nack" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t158Id" l="2" s="2" d="1" n="z158.htm" z="1.6 write_cmdr_05stop" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 05-stop command to cmdr register. It should lead the mbyte state to stop or idle" ls="2" x1="1" x2="100%"/>
+<tr id="t158L1Id" l="3" z="/top/wb_bus/assert__write_cmdr_05stop" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t159Id" l="2" s="2" d="1" n="z159.htm" z="1.7 write_cmdr_00wait" f="1" c="1" v="0" hc="R" h="0.00" pc="R" p="0.00" b="1" ht="0" q="0.00%" t="Testplan" ch="write 00-wait command to cmdr register. It should lead the mbyte state to wait or bustaken" ls="2" x1="1" x2="100%"/>
+<tr id="t159L1Id" l="3" z="/top/wb_bus/assert__write_cmdr_00wait" f="3" hc="R" h="0.00" pc="R" p="0.00" b="1" ht="0" q="0.00%" t="Assertion"/>
+<tr id="t160Id" l="1" s="3" d="1" n="z160.htm" z="2 wb bus mbit state check" f="1" c="5" v="5" hc="G" h="100.00" pc="G" p="100.00" b="5" ht="5" q="100.00%" t="Testplan" ch="assert the correct mbit state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t161Id" l="2" s="2" d="1" n="z161.htm" z="2.1 wrtie_cmdr_04start_mbit" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 00-wait command to cmdr register. 4 condition: rw_e -> rstarta; idle -> starta; startc→starc; idle -> idle." ls="2" x1="1" x2="100%"/>
+<tr id="t161L1Id" l="3" i="1" z="...p/wb_bus/assert__wrtie_cmdr_04start_mbit" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t161L1IdFp" l="3" s="13" z="/top/wb_bus/assert__wrtie_cmdr_04start_mbit"/>
+<tr id="t162Id" l="2" s="2" d="1" n="z162.htm" z="2.2 wrtie_cmdr_01write_mbit" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 01-write command to cmdr register. 3 condition: rw_e -> rw_a; idle -> idle; startc -> rw_a." ls="2" x1="1" x2="100%"/>
+<tr id="t162L1Id" l="3" i="1" z="...p/wb_bus/assert__wrtie_cmdr_01write_mbit" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t162L1IdFp" l="3" s="13" z="/top/wb_bus/assert__wrtie_cmdr_01write_mbit"/>
+<tr id="t163Id" l="2" s="2" d="1" n="z163.htm" z="2.3 wrtie_cmdr_02ack_mbit" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 02-ack command to cmdr register. 3 condition: rw_e -> rw_a; idle -> idle; startc -> rw_a." ls="2" x1="1" x2="100%"/>
+<tr id="t163L1Id" l="3" i="1" z="...top/wb_bus/assert__wrtie_cmdr_02ack_mbit" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t163L1IdFp" l="3" s="13" z="/top/wb_bus/assert__wrtie_cmdr_02ack_mbit"/>
+<tr id="t164Id" l="2" s="2" d="1" n="z164.htm" z="2.4 wrtie_cmdr_03nack_mbit" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 03-nack command to cmdr register. 3 condition: rw_e -> rw_a; idle -> idle; startc -> rw_a." ls="2" x1="1" x2="100%"/>
+<tr id="t164L1Id" l="3" i="1" z="...op/wb_bus/assert__wrtie_cmdr_03nack_mbit" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t164L1IdFp" l="3" s="13" z="/top/wb_bus/assert__wrtie_cmdr_03nack_mbit"/>
+<tr id="t165Id" l="2" s="2" d="1" n="z165.htm" z="2.5 wrtie_cmdr_05stop_mbit" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="write 05-stop command to cmdr register. 3 condition: rw_e -> stopa; idle -> idle; startc -> stopa." ls="2" x1="1" x2="100%"/>
+<tr id="t165L1Id" l="3" i="1" z="...op/wb_bus/assert__wrtie_cmdr_05stop_mbit" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Assertion"/>
+<tr id="t165L1IdFp" l="3" s="13" z="/top/wb_bus/assert__wrtie_cmdr_05stop_mbit"/>
+<tr id="t166Id" l="1" s="3" d="1" n="z166.htm" z="3 wb addr and data check" f="1" c="8" v="4" hc="Y" h="50.00" pc="Y" p="50.00" b="22" ht="18" q="81.81%" t="Testplan" ch="about the relationship of the transaction addr and data" ls="2" x1="1" x2=""/>
+<tr id="t167Id" l="2" s="2" d="1" n="z167.htm" z="3.1 addr_data_cg" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="11" ht="11" q="100.00%" t="Testplan" ch="check coverage of all possible data, addr and these two’s combination" ls="2" x1="1" x2="100%"/>
+<tr id="t167L1Id" l="3" i="1" z="...2cmb_env_pkg/i2cmb_coverage/addr_data_cg" f="3" hc="G" h="100.00" pc="G" p="100.00" b="11" ht="11" q="100.00%" t="Covergroup"/>
+<tr id="t167L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/addr_data_cg"/>
+<tr id="t168Id" l="2" s="2" d="1" n="z168.htm" z="3.2 addr" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Testplan" ch="coverage of all possible addr" ls="2" x1="1" x2="100%"/>
+<tr id="t168L1Id" l="3" i="1" z="...env_pkg/i2cmb_coverage/addr_data_cg/addr" f="3" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Coverpoint"/>
+<tr id="t168L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/addr_data_cg/addr"/>
+<tr id="t169Id" l="2" s="2" d="1" n="z169.htm" z="3.3 w_data" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Testplan" ch="coverage of all possible write data" ls="2" x1="1" x2="100%"/>
+<tr id="t169L1Id" l="3" i="1" z="...v_pkg/i2cmb_coverage/addr_data_cg/w_data" f="3" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Coverpoint"/>
+<tr id="t169L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/addr_data_cg/w_data"/>
+<tr id="t170Id" l="2" s="2" d="1" n="z170.htm" z="3.4 r_data" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Testplan" ch="coverage of all possible read data" ls="2" x1="1" x2="100%"/>
+<tr id="t170L1Id" l="3" i="1" z="...v_pkg/i2cmb_coverage/addr_data_cg/r_data" f="3" hc="G" h="100.00" pc="G" p="100.00" b="1" ht="1" q="100.00%" t="Coverpoint"/>
+<tr id="t170L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/addr_data_cg/r_data"/>
+<tr id="t171Id" l="2" s="2" d="1" n="z171.htm" z="3.5 csr_addr_x_data" f="1" c="1" v="0" hc="R" h="0.00" pc="R" p="0.00" b="1" ht="0" q="0.00%" t="Testplan" ch="coverage of all possible combination of csr register and data" ls="2" x1="1" x2="100%"/>
+<tr id="t171L1Id" l="3" i="1" z="...nericCvp/\addr_data_cg::csr_addr_x_data " f="3" hc="R" h="0.00" b="1" ht="0" q="0.00%" t="cvgbin" b="1"/>
+<tr id="t171L1IdFp" l="3" s="13" z="/#TestplanGenericCoverage#/GenericCvg/GenericCvp/\addr_data_cg::csr_addr_x_data "/>
+<tr id="t172Id" l="2" s="2" d="1" n="z172.htm" z="3.6 dpr_addr_x_data" f="1" c="1" v="0" hc="R" h="0.00" pc="R" p="0.00" b="1" ht="0" q="0.00%" t="Testplan" ch="coverage of all possible combination of dpr register and data" ls="2" x1="1" x2="100%"/>
+<tr id="t172L1Id" l="3" i="1" z="...nericCvp/\addr_data_cg::dpr_addr_x_data " f="3" hc="R" h="0.00" b="1" ht="0" q="0.00%" t="cvgbin" b="1"/>
+<tr id="t172L1IdFp" l="3" s="13" z="/#TestplanGenericCoverage#/GenericCvg/GenericCvp/\addr_data_cg::dpr_addr_x_data "/>
+<tr id="t173Id" l="2" s="2" d="1" n="z173.htm" z="3.7 w_cmdr_addr_x_data" f="1" c="1" v="0" hc="R" h="0.00" pc="R" p="0.00" b="1" ht="0" q="0.00%" t="Testplan" ch="coverage of all possible combination of cmdr register and write data" ls="2" x1="1" x2="100%"/>
+<tr id="t173L1Id" l="3" i="1" z="...icCvp/\addr_data_cg::w_cmdr_addr_x_data " f="3" hc="R" h="0.00" b="1" ht="0" q="0.00%" t="cvgbin" b="1"/>
+<tr id="t173L1IdFp" l="3" s="13" z="/#TestplanGenericCoverage#/GenericCvg/GenericCvp/\addr_data_cg::w_cmdr_addr_x_data "/>
+<tr id="t174Id" l="2" s="2" d="1" n="z174.htm" z="3.8 r_cmdr_addr_x_data" f="1" c="1" v="0" hc="R" h="0.00" pc="R" p="0.00" b="1" ht="0" q="0.00%" t="Testplan" ch="coverage of all possible combination of cmdr register and read data" ls="2" x1="1" x2="100%"/>
+<tr id="t174L1Id" l="3" i="1" z="...icCvp/\addr_data_cg::r_cmdr_addr_x_data " f="3" hc="R" h="0.00" b="1" ht="0" q="0.00%" t="cvgbin" b="1"/>
+<tr id="t174L1IdFp" l="3" s="13" z="/#TestplanGenericCoverage#/GenericCvg/GenericCvp/\addr_data_cg::r_cmdr_addr_x_data "/>
+<tr id="t175Id" l="1" s="3" d="1" n="z175.htm" z="4 mbyte fsm check" f="1" c="4" v="1" hc="Y" h="84.16" pc="Y" p="84.16" b="70" ht="54" q="77.14%" t="Testplan" ch="about mbyte fsm" ls="2" x1="1" x2=""/>
+<tr id="t176Id" l="2" s="2" d="1" n="z176.htm" z="4.1 mbyte_fsm" f="1" c="1" v="0" hc="Y" h="84.16" pc="Y" p="84.16" b="35" ht="27" q="77.14%" t="Testplan" ch="check coverage of all possible cmd, state and state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t176L1Id" l="3" z="/i2cmb_env_pkg/i2cmb_coverage/mbyte_fsm" f="3" hc="Y" h="84.16" pc="Y" p="84.16" b="35" ht="27" q="77.14%" t="Covergroup"/>
+<tr id="t177Id" l="2" s="2" d="1" n="z177.htm" z="4.2 mbyte_cmd" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="7" ht="7" q="100.00%" t="Testplan" ch="coverage of all possible mbyte command" ls="2" x1="1" x2="100%"/>
+<tr id="t177L1Id" l="3" i="1" z="...v_pkg/i2cmb_coverage/mbyte_fsm/mbyte_cmd" f="3" hc="G" h="100.00" pc="G" p="100.00" b="7" ht="7" q="100.00%" t="Coverpoint"/>
+<tr id="t177L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbyte_fsm/mbyte_cmd"/>
+<tr id="t178Id" l="2" s="2" d="1" n="z178.htm" z="4.3 mbyte_state" f="1" c="1" v="0" hc="Y" h="87.50" pc="Y" p="87.50" b="8" ht="7" q="87.50%" t="Testplan" ch="coverage of all possible mbyte state" ls="2" x1="1" x2="100%"/>
+<tr id="t178L1Id" l="3" i="1" z="...pkg/i2cmb_coverage/mbyte_fsm/mbyte_state" f="3" hc="Y" h="87.50" pc="Y" p="87.50" b="8" ht="7" q="87.50%" t="Coverpoint"/>
+<tr id="t178L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbyte_fsm/mbyte_state"/>
+<tr id="t179Id" l="2" s="2" d="1" n="z179.htm" z="4.4 mbyte_state_trans" f="1" c="1" v="0" hc="Y" h="65.00" pc="Y" p="65.00" b="20" ht="13" q="65.00%" t="Testplan" ch="coverage of all possible mbyte state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t179L1Id" l="3" i="1" z="...cmb_coverage/mbyte_fsm/mbyte_state_trans" f="3" hc="Y" h="65.00" pc="Y" p="65.00" b="20" ht="13" q="65.00%" t="Coverpoint"/>
+<tr id="t179L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbyte_fsm/mbyte_state_trans"/>
+<tr id="t180Id" l="1" s="3" d="1" n="z180.htm" z="5 mbit fsm check" f="1" c="5" v="1" hc="Y" h="53.45" pc="Y" p="53.45" b="92" ht="36" q="39.13%" t="Testplan" ch="about mbit fsm" ls="2" x1="1" x2=""/>
+<tr id="t181Id" l="2" s="2" d="1" n="z181.htm" z="5.1 mbit_fsm" f="1" c="1" v="0" hc="Y" h="53.45" pc="Y" p="53.45" b="46" ht="18" q="39.13%" t="Testplan" ch="check coverage of all possible state and state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t181L1Id" l="3" z="/i2cmb_env_pkg/i2cmb_coverage/mbit_fsm" f="3" hc="Y" h="53.45" pc="Y" p="53.45" b="46" ht="18" q="39.13%" t="Covergroup"/>
+<tr id="t182Id" l="2" s="2" d="1" n="z182.htm" z="5.2 mbit_cmd" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="4" ht="4" q="100.00%" t="Testplan" ch="coverage of all possible command" ls="2" x1="1" x2="100%"/>
+<tr id="t182L1Id" l="3" i="1" z="...env_pkg/i2cmb_coverage/mbit_fsm/mbit_cmd" f="3" hc="G" h="100.00" pc="G" p="100.00" b="4" ht="4" q="100.00%" t="Coverpoint"/>
+<tr id="t182L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbit_fsm/mbit_cmd"/>
+<tr id="t183Id" l="2" s="2" d="1" n="z183.htm" z="5.3 mbit_state" f="1" c="1" v="0" hc="R" h="40.00" pc="R" p="40.00" b="15" ht="6" q="40.00%" t="Testplan" ch="coverage of all possible mbit state, as the states are monitored by transaction with a low sample frequency. Many states might be ignored so the coverage rate is low" ls="2" x1="1" x2="100%"/>
+<tr id="t183L1Id" l="3" i="1" z="...v_pkg/i2cmb_coverage/mbit_fsm/mbit_state" f="3" hc="R" h="40.00" pc="R" p="40.00" b="15" ht="6" q="40.00%" t="Coverpoint"/>
+<tr id="t183L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbit_fsm/mbit_state"/>
+<tr id="t184Id" l="2" s="2" d="1" n="z184.htm" z="5.4 mbit_state_trans" f="1" c="1" v="0" hc="R" h="23.80" pc="R" p="23.80" b="21" ht="5" q="23.80%" t="Testplan" ch="coverage of all possible mbit state transition. As the coverage of mbit states is low leading to low coverage rate of state transition." ls="2" x1="1" x2="100%"/>
+<tr id="t184L1Id" l="3" i="1" z="...i2cmb_coverage/mbit_fsm/mbit_state_trans" f="3" hc="R" h="23.80" pc="R" p="23.80" b="21" ht="5" q="23.80%" t="Coverpoint"/>
+<tr id="t184L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbit_fsm/mbit_state_trans"/>
+<tr id="t185Id" l="2" s="2" d="1" n="z185.htm" z="5.5 mbit state jump trans" f="1" c="1" v="0" hc="Y" h="50.00" pc="Y" p="50.00" b="6" ht="3" q="50.00%" t="Testplan" ch="because of using transaction to check state, some states might be ignored which leads to a jump state transaction" ls="2" x1="1" x2="100%"/>
+<tr id="t185L1Id" l="3" i="1" z="..._coverage/mbit_fsm/mbit_state_jump_trans" f="3" hc="Y" h="50.00" pc="Y" p="50.00" b="6" ht="3" q="50.00%" t="Coverpoint"/>
+<tr id="t185L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_coverage/mbit_fsm/mbit_state_jump_trans"/>
+<tr id="t186Id" l="1" s="3" d="1" n="z186.htm" z="6 i2c state check" f="1" c="3" v="3" hc="G" h="100.00" pc="G" p="100.00" b="12" ht="12" q="100.00%" t="Testplan" ch="about i2c fsm" ls="2" x1="1" x2=""/>
+<tr id="t187Id" l="2" s="2" d="1" n="z187.htm" z="6.1 i2c_state_cg" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="6" ht="6" q="100.00%" t="Testplan" ch="check coverage of  all possible i2c state and i2c state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t187L1Id" l="3" z="/top/i2c_bus/i2c_state_cg" f="3" hc="G" h="100.00" pc="G" p="100.00" b="6" ht="6" q="100.00%" t="Covergroup"/>
+<tr id="t188Id" l="2" s="2" d="1" n="z188.htm" z="6.2 i2c_state" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Testplan" ch="coverage of all possible i2c state: idle, load address and load data" ls="2" x1="1" x2="100%"/>
+<tr id="t188L1Id" l="3" z="/top/i2c_bus/i2c_state_cg/i2c_state" f="3" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Coverpoint"/>
+<tr id="t189Id" l="2" s="2" d="1" n="z189.htm" z="6.3 i2c_state_trans" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Testplan" ch="check the correctness and coverage of i2c state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t189L1Id" l="3" i="1" z="...top/i2c_bus/i2c_state_cg/i2c_state_trans" f="3" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Coverpoint"/>
+<tr id="t189L1IdFp" l="3" s="13" z="/top/i2c_bus/i2c_state_cg/i2c_state_trans"/>
+<tr id="t190Id" l="1" s="3" d="1" n="z190.htm" z="7 predictor result check" f="1" c="3" v="3" hc="G" h="100.00" pc="G" p="100.00" b="12" ht="12" q="100.00%" t="Testplan" ch="" ls="2" x1="1" x2=""/>
+<tr id="t191Id" l="2" s="2" d="1" n="z191.htm" z="7.1 pred state trans" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="6" ht="6" q="100.00%" t="Testplan" ch="check coverage of i2c state and state transition" ls="2" x1="1" x2="100%"/>
+<tr id="t191L1Id" l="3" i="1" z="...env_pkg/i2cmb_predictor/pred_state_trans" f="3" hc="G" h="100.00" pc="G" p="100.00" b="6" ht="6" q="100.00%" t="Covergroup"/>
+<tr id="t191L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_predictor/pred_state_trans"/>
+<tr id="t192Id" l="2" s="2" d="1" n="z192.htm" z="7.2 state pred" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Testplan" ch="coverage of all possible predictor state" ls="2" x1="1" x2="100%"/>
+<tr id="t192L1Id" l="3" i="1" z="...mb_predictor/pred_state_trans/state_pred" f="3" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Coverpoint"/>
+<tr id="t192L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_predictor/pred_state_trans/state_pred"/>
+<tr id="t193Id" l="2" s="2" d="1" n="z193.htm" z="7.3 state_pred_trans" f="1" c="1" v="1" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Testplan" ch="coverage of all possible state transition and report if wrong transition happens" ls="2" x1="1" x2="100%"/>
+<tr id="t193L1Id" l="3" i="1" z="...dictor/pred_state_trans/state_pred_trans" f="3" hc="G" h="100.00" pc="G" p="100.00" b="3" ht="3" q="100.00%" t="Coverpoint"/>
+<tr id="t193L1IdFp" l="3" s="13" z="/i2cmb_env_pkg/i2cmb_predictor/pred_state_trans/state_pred_trans"/>
+</table>
+  <script type="text/javascript" src="scripts/buildtestplanpage.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>ModelSim Coverage Report</title>
+  <link type="text/css" rel="StyleSheet" href="../css/mtitree.css"/>
+  <link type="text/css" rel="StyleSheet" href="../css/ucdb2html.css"/>
+  <link type="text/css" rel="StyleSheet" href="../css/ucdb2html_newlook.css"/>
+  <script type="text/javascript" src="../scripts/mtitree.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.color.js"></script>
+  <script type="text/javascript">
+  <!--
+	var fristTimeToLoad = 0;
+  function openAll() {
+    if (document.getElementById('pane1').style.display != 'none') t.openAll();
+    if (document.getElementById('pane2').style.display != 'none') d.openAll();
+    if (document.getElementById('pane3').style.display != 'none') u.openAll();
+  }
+  function closeAll() {
+    if (document.getElementById('pane1').style.display != 'none') t.closeAll();
+    if (document.getElementById('pane2').style.display != 'none') d.closeAll();
+    if (document.getElementById('pane3').style.display != 'none') u.closeAll();
+  }
+  function disableAll() {
+    document.getElementById('pane1').style.display='none';
+    document.getElementById('pane2').style.display='none';
+    document.getElementById('pane3').style.display='none';
+  }
+  function buttonsOff() {
+    document.getElementById('button1').className='button_off1';
+    document.getElementById('button2').className='button_off1';
+    document.getElementById('button3').className='button_off1';
+    
+    $('#button1').animate({ backgroundColor: '#696969', color: "a9a9a9" }, 200);
+    $('#button2').animate({ backgroundColor: '#696969', color: "a9a9a9" }, 200);
+    $('#button3').animate({ backgroundColor: '#696969', color: "a9a9a9" }, 200);
+  }
+  function drawTo(c) {
+    switch (c) {
+      case 1: t.drawTreeTo(document.getElementById('pane1')); break;
+      case 2: d.drawTreeTo(document.getElementById('pane2')); break;
+      case 3: u.drawTreeTo(document.getElementById('pane3')); break;
+    }
+  }
+  function select(c) {
+    disableAll(); document.getElementById('pane'   + c).style.display='';
+    $('#pane' + c).hide();
+    $('#pane' + c).show(500);
+    buttonsOff(); document.getElementById('button' + c).className='button_on1';
+    $('#button' + c).animate({ backgroundColor: "blue", color: "white" }, 200);    setTimeout('drawTo(' + c + ')', 500);
+	 openpage(c);
+  }
+	  function openpage (c) {
+		var page;
+		if (c == 1) {
+			var i = 1;
+			while(t.aNodes[i].url == '')
+				i=i+1;
+			page = t.aNodes[i].url;
+		}
+		else if (c == 2) {
+			var i = 1;
+			while(d.aNodes[i].url == '')
+				i=i+1;
+			page = d.aNodes[i].url;
+		}
+		else {
+			var i = 1;
+			while(u.aNodes[i].url == '')
+				i=i+1;
+			page = u.aNodes[i].url;
+		}
+		if (fristTimeToLoad == 1) //frist time to load the page
+			window.open(page,'text');
+		if(fristTimeToLoad == 0)
+			fristTimeToLoad =1;
+	  }
+  // -->
+  </script>
+</head>
+<body>
+  <table class="buttons" cellspacing="2" cellpadding="2" width="100%"><tr>
+    <td width="75" class="button_off1" id="button1"
+        title="Select testplan tree" onclick="select('1')">Testplan</td>
+    <td width="75" class="button_off1" id="button2"
+        title="Select design tree" onclick="select('2')">Design</td>
+    <td width="75" class="button_off1" id="button3"
+        title="Select design unit list" onclick="select('3')">DesUnits</td>
+    <td class="invisible">&nbsp;</td><!-- spacer -->
+  </tr></table><hr/>
+  <div class="pane" id="pane1" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    t = new Tree('t');
+    t.add(1, 0, '0 testplan', 'z151.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(2, 1, '1 wb bus mbyte state check', 'z152.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(3, 2, '1.1 wrtie_cmdr_04start', 'z153.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(4, 2, '1.2 write_cmdr_06setbus', 'z154.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(5, 2, '1.3 write_cmdr_01write', 'z155.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(6, 2, '1.4 write_cmdr_02ack', 'z156.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(7, 2, '1.5 write_cmdr_03nack', 'z157.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(8, 2, '1.6 write_cmdr_05stop', 'z158.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(9, 2, '1.7 write_cmdr_00wait', 'z159.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(10, 1, '2 wb bus mbit state check', 'z160.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(11, 10, '2.1 wrtie_cmdr_04start_mbit', 'z161.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(12, 10, '2.2 wrtie_cmdr_01write_mbit', 'z162.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(13, 10, '2.3 wrtie_cmdr_02ack_mbit', 'z163.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(14, 10, '2.4 wrtie_cmdr_03nack_mbit', 'z164.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(15, 10, '2.5 wrtie_cmdr_05stop_mbit', 'z165.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(16, 1, '3 wb addr and data check', 'z166.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(17, 16, '3.1 addr_data_cg', 'z167.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(18, 16, '3.2 addr', 'z168.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(19, 16, '3.3 w_data', 'z169.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(20, 16, '3.4 r_data', 'z170.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(21, 16, '3.5 csr_addr_x_data', 'z171.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(22, 16, '3.6 dpr_addr_x_data', 'z172.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(23, 16, '3.7 w_cmdr_addr_x_data', 'z173.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(24, 16, '3.8 r_cmdr_addr_x_data', 'z174.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(25, 1, '4 mbyte fsm check', 'z175.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(26, 25, '4.1 mbyte_fsm', 'z176.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(27, 25, '4.2 mbyte_cmd', 'z177.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(28, 25, '4.3 mbyte_state', 'z178.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(29, 25, '4.4 mbyte_state_trans', 'z179.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(30, 1, '5 mbit fsm check', 'z180.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(31, 30, '5.1 mbit_fsm', 'z181.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(32, 30, '5.2 mbit_cmd', 'z182.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(33, 30, '5.3 mbit_state', 'z183.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(34, 30, '5.4 mbit_state_trans', 'z184.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(35, 30, '5.5 mbit state jump trans', 'z185.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(36, 1, '6 i2c state check', 'z186.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(37, 36, '6.1 i2c_state_cg', 'z187.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(38, 36, '6.2 i2c_state', 'z188.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(39, 36, '6.3 i2c_state_trans', 'z189.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(40, 1, '7 predictor result check', 'z190.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(41, 40, '7.1 pred state trans', 'z191.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(42, 40, '7.2 state pred', 'z192.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+t.add(43, 40, '7.3 state_pred_trans', 'z193.htm', '', '../icons/star-gold.png', 'Testplan', false, 'node','nodeSel');
+
+    if (t.length() > 0) {
+      document.getElementById('pane1').style.display='';
+      document.getElementById('button1').className='button_on1';
+      document.write(t);
+    }
+  //-->
+  </script>
+  </div>
+  <div class="pane" id="pane2" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    d = new Tree('d');
+    d.add(1, 0, 'top', 'z.htm?f=1&s=22', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(2, 1, 'wb_bus', 'z.htm?f=1&s=23', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(3, 1, 'i2c_bus', 'z.htm?f=1&s=48', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(4, 3, 'provide_read_data (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(5, 1, 'DUT (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+d.add(6, 0, 'ncsu_pkg (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(7, 0, 'wb_pkg (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(8, 0, 'i2c_pkg (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(9, 0, 'i2cmb_env_pkg', 'z.htm?f=1&s=98', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(10, 9, 'i2cmb_test_1 (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(11, 9, 'i2cmb_generator (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(12, 9, 'i2cmb_predictor', 'z.htm?f=1&s=104', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(13, 9, 'i2cmb_coverage', 'z.htm?f=1&s=111', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(14, 9, 'i2cmb_scoreboard (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(15, 9, 'i2cmb_environment (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(16, 9, 'i2cmb_test (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+d.add(17, 0, 'iicmb_pkg (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+d.add(18, 0, 'iicmb_int_pkg (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+d.add(19, 0, '#TestplanGenericCoverage#', 'z.htm?f=1&s=194', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+
+    if ((d.length() > 0) && (t.length() < 1)) {
+      document.getElementById('pane2').style.display='';
+      document.getElementById('button2').className='button_on1';
+      document.write(d);
+    }
+  //-->
+  </script>
+  </div>
+  <div class="pane" id="pane3" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    u = new Tree('u');
+    u.add(1, 0, 'work.ncsu_pkg (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(2, 0, 'work.wb_pkg (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(3, 0, 'work.i2c_pkg (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(4, 0, 'work.i2cmb_env_pkg', 'z.htm?f=1&s=9', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(5, 0, 'work.top', 'z.htm?f=1&s=10', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(6, 0, 'work.iicmb_m_wb(str) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(7, 0, 'work.wishbone(rtl) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(8, 0, 'work.regblock(rtl) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(9, 0, 'work.iicmb_m(str) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(10, 0, 'work.mbyte(rtl) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(11, 0, 'work.mbit(rtl) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(12, 0, 'work.conditioner_mux(str) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(13, 0, 'work.conditioner(str) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(14, 0, 'work.bus_state(rtl) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(15, 0, '#TestplanGenericCoverage#', 'z.htm?f=1&s=21', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(16, 0, 'work.iicmb_int_pkg (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(17, 0, 'work.iicmb_pkg (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+u.add(18, 0, 'work.i2c_if', 'z.htm?f=1&s=4', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(19, 18, 'provide_read_data (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(20, 0, 'work.wb_if', 'z.htm?f=1&s=5', '', '../icons/square-ltBlue.png', 'SystemVerilog', false, 'node','nodeSel');
+u.add(21, 0, 'work.filter(rtl) (no coverage)', null, '', '../icons/square-dkBlue.png', 'VHDL', false, 'node','nodeSel');
+
+    // document.write(u);
+  //-->
+  if (document.getElementById('button1').className == 'button_on1') select("1");
+  else if (document.getElementById('button2').className == 'button_on1') select("2");
+  else select("3");
+  </script>
+  <h3>Loading...</h3>
+  </div>
+</body>
+</html>

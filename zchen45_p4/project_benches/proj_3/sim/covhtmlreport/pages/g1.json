@@ -1,0 +1,24 @@
+var g_data = {
+g48:[{dummy:0},
+{name:'i2c_state_cg',f:1,type:1,id:49,tb:'6',h:'6',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],parent:'48'},
+{name:'i2c_state_cg',f:1,type:2,id:52,tb:'6',h:'6',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['per_instance','true']],cvg:'i2c_state_cg',parent:'49'}],
+g104:[{dummy:0},
+{name:'pred_state_trans',f:1,type:1,id:105,tb:'6',h:'6',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],parent:'104'},
+{name:'pred_state_trans',f:1,type:2,id:108,tb:'6',h:'6',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['per_instance','true']],cvg:'pred_state_trans',parent:'105'}],
+g111:[{dummy:0},
+{name:'addr_data_cg',f:1,type:1,id:112,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],parent:'111'},
+{name:'addr_data_cg',f:1,type:2,id:120,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['per_instance','true']],cvg:'addr_data_cg',parent:'112'},
+{name:'mbyte_fsm',f:1,type:1,id:128,tb:'35',h:'27',m:'8',hp:'77.14%',cov:['84.16%','Y'],g:'100.00%',gp:['84.16%','Y'],parent:'111'},
+{name:'mbyte_fsm',f:1,type:2,id:132,tb:'35',h:'27',m:'8',hp:'77.14%',cov:['84.16%','Y'],g:'100.00%',gp:['84.16%','Y'],opts:[[],['per_instance','true']],cvg:'mbyte_fsm',parent:'128'},
+{name:'mbit_fsm',f:1,type:1,id:136,tb:'46',h:'18',m:'28',hp:'39.13%',cov:['53.45%','Y'],g:'100.00%',gp:['53.45%','Y'],parent:'111'},
+{name:'mbit_fsm',f:1,type:2,id:141,tb:'46',h:'18',m:'28',hp:'39.13%',cov:['53.45%','Y'],g:'100.00%',gp:['53.45%','Y'],opts:[[],['per_instance','true']],cvg:'mbit_fsm',parent:'136'}],
+g21:[{dummy:0},
+{name:'GenericCvg',f:1,type:1,id:195,tb:'4',h:'0',m:'4',hp:'0.00%',cov:['0.00%','R'],g:'100.00%',gp:['0.00%','R'],opts:[[],['merge_instance','true']],parent:'194'}],
+g194:[{dummy:0},
+{name:'GenericCvg',f:1,type:1,id:195,tb:'4',h:'0',m:'4',hp:'0.00%',cov:['0.00%','R'],g:'100.00%',gp:['0.00%','R'],opts:[[],['merge_instance','true']],parent:'194'}],
+g4:[{dummy:0},
+{name:'i2c_state_cg',f:1,type:1,id:200,tb:'6',h:'6',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],parent:'4'},
+{name:'i2c_state_cg',f:1,type:2,id:203,tb:'6',h:'6',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['per_instance','true']],cvg:'i2c_state_cg',parent:'200'}],
+dummyEnd:0
+};
+processCovergroupsData(g_data);

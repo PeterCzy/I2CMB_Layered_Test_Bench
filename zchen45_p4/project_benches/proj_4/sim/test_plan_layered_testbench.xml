@@ -1,0 +1,716 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Peter</Author>
+  <LastAuthor>Peter</LastAuthor>
+  <Revision>17</Revision>
+  <TotalTime>129</TotalTime>
+  <Created>2019-04-09T12:48:20Z</Created>
+  <LastSaved>2019-04-14T02:01:50Z</LastSaved>
+  <Paragraphs>en-US</Paragraphs>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <AppVersion dt:dt="string">15.0300</AppVersion>
+  <DocSecurity dt:dt="float">0</DocSecurity>
+  <HyperlinksChanged dt:dt="boolean">0</HyperlinksChanged>
+  <LinksUpToDate dt:dt="boolean">0</LinksUpToDate>
+  <ScaleCrop dt:dt="boolean">0</ScaleCrop>
+  <ShareDoc dt:dt="boolean">0</ShareDoc>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>0</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>1</Index>
+    <RGB>#006100</RGB>
+   </Color>
+   <Color>
+    <Index>2</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#808080</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>13</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>14</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>15</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#00CCFF</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#C6EFCE</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#FFFF99</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#99CCFF</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#FF99CC</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#CC99FF</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#FFCC99</RGB>
+   </Color>
+   <Color>
+    <Index>32</Index>
+    <RGB>#3366FF</RGB>
+   </Color>
+   <Color>
+    <Index>33</Index>
+    <RGB>#33CCCC</RGB>
+   </Color>
+   <Color>
+    <Index>34</Index>
+    <RGB>#99CC00</RGB>
+   </Color>
+   <Color>
+    <Index>35</Index>
+    <RGB>#FFCC00</RGB>
+   </Color>
+   <Color>
+    <Index>36</Index>
+    <RGB>#FF9900</RGB>
+   </Color>
+   <Color>
+    <Index>37</Index>
+    <RGB>#FF6600</RGB>
+   </Color>
+   <Color>
+    <Index>38</Index>
+    <RGB>#666699</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#969696</RGB>
+   </Color>
+   <Color>
+    <Index>40</Index>
+    <RGB>#003366</RGB>
+   </Color>
+   <Color>
+    <Index>41</Index>
+    <RGB>#339966</RGB>
+   </Color>
+   <Color>
+    <Index>42</Index>
+    <RGB>#003300</RGB>
+   </Color>
+   <Color>
+    <Index>43</Index>
+    <RGB>#333300</RGB>
+   </Color>
+   <Color>
+    <Index>44</Index>
+    <RGB>#993300</RGB>
+   </Color>
+   <Color>
+    <Index>45</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>46</Index>
+    <RGB>#333399</RGB>
+   </Color>
+   <Color>
+    <Index>47</Index>
+    <RGB>#333333</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>500</TabRatio>
+  <MaxChange>0.0001</MaxChange>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s35" ss:Name="解释性文本">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#006100"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s36">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Abyssinica SIL" x:CharSet="134" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Abyssinica SIL" x:CharSet="134" ss:Size="11"
+    ss:Color="#000000"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s38" ss:Parent="s35">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Abyssinica SIL" x:CharSet="134" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s39">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Abyssinica SIL" x:CharSet="134" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Font ss:FontName="Abyssinica SIL" x:CharSet="134" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1025" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="562.5"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="252"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="83.25"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="81.75"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="72.75"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="51" ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="284.25"/>
+   <Column ss:StyleID="s36" ss:AutoFitWidth="0" ss:Width="51" ss:Span="1009"/>
+   <Row ss:StyleID="s37">
+    <Cell><Data ss:Type="String">Verification Plan for layered testbench</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s37">
+    <Cell><Data ss:Type="String">Simulation</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s37">
+    <Cell><Data ss:Type="String">Section</Data></Cell>
+    <Cell><Data ss:Type="String">Title</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+    <Cell><Data ss:Type="String">Link</Data></Cell>
+    <Cell><Data ss:Type="String">Type</Data></Cell>
+    <Cell><Data ss:Type="String">Weight</Data></Cell>
+    <Cell><Data ss:Type="String">Goal</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s36"/>
+    <Cell ss:Index="12" ss:StyleID="s36"/>
+   </Row>
+   <Row ss:StyleID="s38">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">wb bus mbyte state check</Data></Cell>
+    <Cell><Data ss:Type="String">assert the correct mbyte state transition</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1.1</Data></Cell>
+    <Cell><Data ss:Type="String">wrtie_cmdr_04start</Data></Cell>
+    <Cell><Data ss:Type="String">write 04-start command to cmdr register. It should lead the mbyte state to startpending or start</Data></Cell>
+    <Cell><Data ss:Type="String">assert__wrtie_cmdr_04start</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s38">
+    <Cell><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell><Data ss:Type="String">write_cmdr_06setbus</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">write 06-setbus command to cmdr register. It should lead the mbyte state to idle or bustaken</Data></Cell>
+    <Cell><Data ss:Type="String">assert__write_cmdr_06setbus</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1.3</Data></Cell>
+    <Cell><Data ss:Type="String">write_cmdr_01write</Data></Cell>
+    <Cell><Data ss:Type="String">write 01-write command to cmdr register. It should lead the mbyte state to write or idle</Data></Cell>
+    <Cell><Data ss:Type="String">assert__write_cmdr_01write</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1.4</Data></Cell>
+    <Cell><Data ss:Type="String">write_cmdr_02ack</Data></Cell>
+    <Cell><Data ss:Type="String">write 02-ack command to cmdr register. It should lead the mbyte state to read or idle</Data></Cell>
+    <Cell><Data ss:Type="String">assert__write_cmdr_02ack</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell><Data ss:Type="String">write_cmdr_03nack</Data></Cell>
+    <Cell><Data ss:Type="String">write 03-nack command to cmdr register. It should lead the mbyte state to read or idle</Data></Cell>
+    <Cell><Data ss:Type="String">assert__write_cmdr_03nack</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1.6</Data></Cell>
+    <Cell><Data ss:Type="String">write_cmdr_05stop</Data></Cell>
+    <Cell><Data ss:Type="String">write 05-stop command to cmdr register. It should lead the mbyte state to stop or idle</Data></Cell>
+    <Cell><Data ss:Type="String">assert__write_cmdr_05stop</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s38">
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">write_cmdr_00wait</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">write 00-wait command to cmdr register. It should lead the mbyte state to wait or bustaken</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">assert__write_cmdr_00wait</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">wb bus mbit state check</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">assert the correct mbit state transition</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell><Data ss:Type="String">wrtie_cmdr_04start_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">write 00-wait command to cmdr register. 4 condition: rw_e -&gt; rstarta; idle -&gt; starta; startc→starc; idle -&gt; idle.</Data></Cell>
+    <Cell><Data ss:Type="String">assert__wrtie_cmdr_04start_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">2.2</Data></Cell>
+    <Cell><Data ss:Type="String">wrtie_cmdr_01write_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">write 01-write command to cmdr register. 3 condition: rw_e -&gt; rw_a; idle -&gt; idle; startc -&gt; rw_a.</Data></Cell>
+    <Cell><Data ss:Type="String">assert__wrtie_cmdr_01write_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s38">
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">2.3</Data></Cell>
+    <Cell><Data ss:Type="String">wrtie_cmdr_02ack_mbit</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">write 02-ack command to cmdr register. 3 condition: rw_e -&gt; rw_a; idle -&gt; idle; startc -&gt; rw_a.</Data></Cell>
+    <Cell><Data ss:Type="String">assert__wrtie_cmdr_02ack_mbit</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">2.4</Data></Cell>
+    <Cell><Data ss:Type="String">wrtie_cmdr_03nack_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">write 03-nack command to cmdr register. 3 condition: rw_e -&gt; rw_a; idle -&gt; idle; startc -&gt; rw_a.</Data></Cell>
+    <Cell><Data ss:Type="String">assert__wrtie_cmdr_03nack_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="String">wrtie_cmdr_05stop_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">write 05-stop command to cmdr register. 3 condition: rw_e -&gt; stopa; idle -&gt; idle; startc -&gt; stopa.</Data></Cell>
+    <Cell><Data ss:Type="String">assert__wrtie_cmdr_05stop_mbit</Data></Cell>
+    <Cell><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">wb addr and data check</Data></Cell>
+    <Cell><Data ss:Type="String">about the relationship of the transaction addr and data</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s38"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg</Data></Cell>
+    <Cell><Data ss:Type="String">check coverage of all possible data, addr and these two’s combination </Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg</Data></Cell>
+    <Cell><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell><Data ss:Type="String">addr</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible addr</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::addr</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.3</Data></Cell>
+    <Cell><Data ss:Type="String">w_data</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible write data</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::w_data</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.4</Data></Cell>
+    <Cell><Data ss:Type="String">r_data</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible read data</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::r_data</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell><Data ss:Type="String">csr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible combination of csr register and data</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::csr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.6</Data></Cell>
+    <Cell><Data ss:Type="String">dpr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible combination of dpr register and data</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::dpr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.7</Data></Cell>
+    <Cell><Data ss:Type="String">w_cmdr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible combination of cmdr register and write data</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::w_cmdr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3.8</Data></Cell>
+    <Cell><Data ss:Type="String">r_cmdr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible combination of cmdr register and read data</Data></Cell>
+    <Cell><Data ss:Type="String">addr_data_cg::r_cmdr_addr_x_data</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte fsm check</Data></Cell>
+    <Cell><Data ss:Type="String">about mbyte fsm</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s38"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4.1</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_fsm</Data></Cell>
+    <Cell><Data ss:Type="String">check coverage of all possible cmd, state and state transition</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_fsm</Data></Cell>
+    <Cell><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4.2</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_cmd</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible mbyte command</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_fsm::mbyte_cmd</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4.3</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_state</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible mbyte state</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_fsm::mbyte_state</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4.4</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible mbyte state transition</Data></Cell>
+    <Cell><Data ss:Type="String">mbyte_fsm::mbyte_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">mbit fsm check</Data></Cell>
+    <Cell><Data ss:Type="String">about mbit fsm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5.1</Data></Cell>
+    <Cell><Data ss:Type="String">mbit_fsm</Data></Cell>
+    <Cell><Data ss:Type="String">check coverage of all possible state and state transition</Data></Cell>
+    <Cell><Data ss:Type="String">mbit_fsm</Data></Cell>
+    <Cell><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5.2</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">mbit_cmd</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">coverage of all possible command</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">mbit_fsm::mbit_cmd</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell><Data ss:Type="String">mbit_state</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible mbit state, as the states are monitored by transaction with a low sample frequency. Many states might be ignored so the coverage rate is low</Data></Cell>
+    <Cell><Data ss:Type="String">mbit_fsm::mbit_state</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5.4</Data></Cell>
+    <Cell><Data ss:Type="String">mbit_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible mbit state transition. As the coverage of mbit states is low leading to low coverage rate of state transition.</Data></Cell>
+    <Cell><Data ss:Type="String">mbit_fsm::mbit_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">mbit state jump trans</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">because of using transaction to check state, some states might be ignored which leads to a jump state transaction</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">mbit_fsm::mbit_state_jump_trans</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">i2c state check</Data></Cell>
+    <Cell><Data ss:Type="String">about i2c fsm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.1</Data></Cell>
+    <Cell><Data ss:Type="String">i2c_state_cg</Data></Cell>
+    <Cell><Data ss:Type="String">check coverage of  all possible i2c state and i2c state transition</Data></Cell>
+    <Cell><Data ss:Type="String">i2c_state_cg</Data></Cell>
+    <Cell><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.2</Data></Cell>
+    <Cell><Data ss:Type="String">i2c_state</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible i2c state: idle, load address and load data</Data></Cell>
+    <Cell><Data ss:Type="String">i2c_state_cg::i2c_state</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.3</Data></Cell>
+    <Cell><Data ss:Type="String">i2c_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">check the correctness and coverage of i2c state transition</Data></Cell>
+    <Cell><Data ss:Type="String">i2c_state_cg::i2c_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">predictor result check</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7.1</Data></Cell>
+    <Cell><Data ss:Type="String">pred state trans</Data></Cell>
+    <Cell><Data ss:Type="String">check coverage of i2c state and state transition</Data></Cell>
+    <Cell><Data ss:Type="String">pred_state_trans</Data></Cell>
+    <Cell><Data ss:Type="String">CoverGroup</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7.2</Data></Cell>
+    <Cell><Data ss:Type="String">state pred</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible predictor state</Data></Cell>
+    <Cell><Data ss:Type="String">pred_state_trans::state_pred</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7.3</Data></Cell>
+    <Cell><Data ss:Type="String">state_pred_trans</Data></Cell>
+    <Cell><Data ss:Type="String">coverage of all possible state transition and report if wrong transition happens</Data></Cell>
+    <Cell><Data ss:Type="String">pred_state_trans::state_pred_trans</Data></Cell>
+    <Cell><Data ss:Type="String">CoverPoint</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,13 @@
+-html
+-htmldir
+covhtmlreport
+-assert
+-directive
+-cvg
+-code
+bcefst
+-threshL
+50
+-threshH
+90
+/afs/unity.ncsu.edu/users/z/zchen45/zchen45/ece745/zchen45_p3/project_benches/proj_3/sim/sim_and_testplan_merged.ucdb
