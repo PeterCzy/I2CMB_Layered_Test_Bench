@@ -1,6 +1,0 @@
-这次更新了bus randomization
-
-首先在wb_transaction_random中，会随机产生data_bus_temp然后赋值给transaction的data用于master_write设置选择bus。
-
-然后在i2c_if中，我用fork&join_any观察每一个bus，其中任一个产生开始信号，记录这个busID，然后之后的操作全在这个busID上进行。PS：fork-join之后的disable fork非常重要，这个东西卡了我1个多小时。。。
-
